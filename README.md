@@ -58,11 +58,15 @@ A **Virtual Machine Scale Set (VMSS)** is an Azure compute service that allows y
 1. In the `Azure Portal`, search for **`Virtual Machine Scale Sets`** in the search bar.
 2. Click on **`Virtual Machine Scale Sets`** under the services section.
 
+![image](https://github.com/user-attachments/assets/9adbb784-cede-42cb-9372-dc7d34659a91)
+
 ---
 
 ### **Step 3: Create a New VMSS**
 
-1. Click on **“+ Create”** or **“+ Add”** to create a new scale set.
+1. Click on **`+ Create`** or **`Create virtual machine scale sets`** to create a new scale set.
+
+![image](https://github.com/user-attachments/assets/d90df4fb-66df-4e57-a492-55440dd7f3d6)
 
 ---
 
