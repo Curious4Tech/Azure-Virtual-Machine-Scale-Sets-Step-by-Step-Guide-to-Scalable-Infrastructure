@@ -91,39 +91,44 @@ A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows
 
 ### **Step 5: Set Up Authentication**
 
-1. **Administrator Account**:
+1. **`Administrator Account`**:
    - Choose the authentication method:
-     - **Password** (provide username and password) **or**
-     - **SSH Public Key** (for Linux VMs only).
-2. **Username**: Enter the admin username.
-3. **Password/SSH Key**: Input the password or upload the SSH key. Then click on **`Next`** until disk tab for the sake of this demo.
+     - **`assword`** (provide username and password) **or**
+     - **`SSH Public Key`** (for Linux VMs only).
+2. **`Username`**: Enter the admin username.
+3. **`Password/SSH Key`**: Input the password or upload the SSH key. Then click on **`Next`** until disk tab for the sake of this demo.
 
 ![image](https://github.com/user-attachments/assets/e5428f3f-a61c-445f-b386-d5067b7a3ecb)
 
 ---
 
-### **Step 6: Configure Networking**
+### **Step 6: Disks Options**
 
-1. **Virtual Network (VNet)**: 
-   - Select an existing VNet or create a new one.
-2. **Subnet**: Choose or create a subnet where the VMs will reside.
-3. **Public IP**: 
-   - Configure a public IP for load balancing if required.
-4. **Load Balancer**: 
-   - Select **“Azure Load Balancer”** to distribute traffic across VMs.
+1. **`OS disk size`**:
+   - Set the **`Os disk size`** to **`default image`** .
+2. **`OS disk type`**:
+   - Set the **`OS disk type`** to **`Standrad SSD (locally-redundant storage`**
+3. **`Key management`**: Set to **`Platform managed key`**.
+4. Click on **`Next: Networking`**
+
+![image](https://github.com/user-attachments/assets/67527f29-1d5c-4b32-9daa-ffe90932cf86)
+
 
 ---
 
-### **Step 7: Set Scaling Options**
+### **Step 7: Configure Networking**
 
-1. **Scaling Policy**:
-   - Set the scaling mode to **manual** or **automatic**.
-2. **Autoscale Rules**:
-   - Add rules based on CPU, memory, or custom metrics.
-     - Example: Scale-out when CPU > 75% for 10 minutes.
-3. **Maximum Instances**: Set the maximum number of VM instances.
-4. **Minimum Instances**: Define the minimum VM count.
+1. **`Virtual Network (VNet)`**: 
+   - Select an existing VNet or create a new one.
+2. **`Subnet`**: Choose or create a subnet where the VMs will reside.
+3. **`Public IP`**: 
+   - Configure a public IP for load balancing if required.
+4. **`Load Balancer option`**: 
+   - Select **`None`** for the sake of this demo.
+ 
+![image](https://github.com/user-attachments/assets/aec7a08a-90d5-4791-8faf-e175a3372c17)
 
+    
 ---
 
 ### **Step 8: Review and Create**
