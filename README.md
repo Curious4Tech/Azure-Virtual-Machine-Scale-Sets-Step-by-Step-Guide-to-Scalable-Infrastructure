@@ -84,6 +84,8 @@ A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows
 8. **`Instance Size`**: Select the desired VM size (e.g., Standard_DS1_v2).
 9. **`Number of Instances`**: Set the initial number of VM instances (e.g., 2).
 
+![image](https://github.com/user-attachments/assets/5c14c0f6-c885-45d5-9beb-db991a22c805)
+
 ---
 
 ### **Step 5: Set Up Authentication**
