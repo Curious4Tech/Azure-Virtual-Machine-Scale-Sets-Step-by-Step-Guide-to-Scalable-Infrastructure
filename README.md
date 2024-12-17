@@ -70,16 +70,19 @@ A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows
 
 ### **Step 4: Configure the Basics**
 
-1. **Subscription**: Select your Azure subscription.
-2. **Resource Group**: 
-   - Click **Create new** or select an existing resource group.
-3. **Region**: Choose the Azure region where the VMSS will be deployed.
-4. **Virtual Machine Scale Set Name**: Provide a unique name for your VMSS.
-5. **Orchestration Mode**: Select **"Uniform"** (recommended for identical VMs) or **"Flexible"**.
-6. **Image**:
+1. **`Subscription`**: Select your Azure subscription.
+2. **`Resource Group`**: 
+   - Click **`Create new`** or select an existing resource group.
+3. **`Region`**: Choose the Azure region where the VMSS will be deployed.
+4. **`Virtual Machine Scale Set Name`**: Provide a unique name for your VMSS.
+
+![image](https://github.com/user-attachments/assets/63843fa6-e904-4ca9-9a5d-37e381601e19)
+
+6. **`Orchestration Mode`**: Select **`Uniform`** (recommended for identical VMs) or **`Flexible`**.
+7. **`Image`**:
    - Choose the OS image for the virtual machines (e.g., Ubuntu Server, Windows Server).
-7. **Instance Size**: Select the desired VM size (e.g., Standard_DS1_v2).
-8. **Number of Instances**: Set the initial number of VM instances (e.g., 2).
+8. **`Instance Size`**: Select the desired VM size (e.g., Standard_DS1_v2).
+9. **`Number of Instances`**: Set the initial number of VM instances (e.g., 2).
 
 ---
 
