@@ -140,7 +140,8 @@ A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows
    - Scaling Policies
 2. Click **"Create"** to deploy the Virtual Machine Scale Set.
 
----
+![image](https://github.com/user-attachments/assets/44a92c06-247f-47ef-8ae7-1e906178cb07)
+
 
 ### **Step 9: Monitor and Scale the VMSS**
 
