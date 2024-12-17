@@ -2,8 +2,6 @@
 Unlock the power of Azure Virtual Machine Scale Sets (VMSS) to achieve automated scaling, high availability, and cost-efficiency. This repository provides a detailed, step-by-step guide to create and configure VMSS using the Azure Portal, complete with benefits, best practices, and scaling options for businesses and enterprises.
 
 
-Here’s the complete content formatted as a GitHub README file using **Markdown**:
-
 ---
 
 # **How to Create a Virtual Machine Scale Set (VMSS) in Azure**
@@ -27,18 +25,18 @@ Here’s the complete content formatted as a GitHub README file using **Markdown
 
 ## **What is a Virtual Machine Scale Set (VMSS)?**
 
-A **Virtual Machine Scale Set (VMSS)** is an Azure compute service that allows you to deploy and manage a set of identical virtual machines (VMs) to meet your application or workload demands. VMSS ensures high availability, scalability, and automated management of VMs as per the workload requirements.
+A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows you to deploy and manage a set of identical virtual machines (VMs) to meet your application or workload demands. VMSS ensures high availability, scalability, and automated management of VMs as per the workload requirements.
 
 ---
 
 ## **Benefits of VMSS for Enterprises or Businesses**
 
-1. **Automatic Scaling**: VMSS automatically increases or decreases the number of VMs based on demand or predefined metrics (e.g., CPU usage or memory usage).
-2. **High Availability**: VMSS ensures redundancy and fault tolerance by spreading VMs across availability zones and fault domains.
-3. **Cost Efficiency**: Enterprises can scale up or down as needed, paying only for the resources consumed.
-4. **Load Balancing**: VMSS integrates seamlessly with Azure Load Balancer to distribute incoming traffic across VMs for improved performance.
-5. **Ease of Management**: Manage, update, or configure thousands of VMs centrally using a single template or model.
-6. **Elasticity for Workloads**: Supports elastic workloads such as web servers, batch processing, or containerized applications.
+1. **`Automatic Scaling`**: VMSS automatically increases or decreases the number of VMs based on demand or predefined metrics (e.g., CPU usage or memory usage).
+2. **`High Availability`**: VMSS ensures redundancy and fault tolerance by spreading VMs across availability zones and fault domains.
+3. **`Cost Efficiency`**: Enterprises can scale up or down as needed, paying only for the resources consumed.
+4. **`Load Balancing`**: VMSS integrates seamlessly with Azure Load Balancer to distribute incoming traffic across VMs for improved performance.
+5. **`Ease of Management`**: Manage, update, or configure thousands of VMs centrally using a single template or model.
+6. **`Elasticity for Workloads`**: Supports elastic workloads such as web servers, batch processing, or containerized applications.
 
 ---
 
