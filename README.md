@@ -149,6 +149,8 @@ A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows
 2. Use **"Metrics"** to monitor CPU usage, memory usage, and other performance metrics.
 3. Adjust scaling rules or manual scaling as needed.
 
+![image](https://github.com/user-attachments/assets/db8ccbba-c352-42bb-b047-b4159f6acf5c)
+
 ---
 
 ## **Conclusion**
