@@ -48,7 +48,7 @@ A **Virtual Machine Scale Set (VMSS)** is an Azure compute service that allows y
 
 ### **Step 1: Log in to Azure Portal**
 
-1. Go to [https://portal.azure.com](https://portal.azure.com).
+1. Go to [Azure Portal](https://portal.azure.com).
 2. Sign in using your Azure account credentials.
 
 ---
