@@ -153,19 +153,6 @@ A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows
 
 ---
 
-## **Conclusion**
-
-Azure Virtual Machine Scale Sets (VMSS) empower businesses to handle fluctuating workloads while ensuring scalability, reliability, and cost-efficiency. By following this step-by-step guide, you can easily set up a VMSS in the Azure Portal to meet your application demands.
-
----
-
-## **Key Notes**
-
-- **Load Balancing**: Azure Load Balancer distributes incoming traffic across VM instances.
-- **Automatic Updates**: Azure handles rolling updates to VMs in the scale set.
-- **Fault Tolerance**: VMSS ensures high availability across fault domains and availability zones.
-
----
 
 ### **Need More Help?**
 Feel free to reach out or check the [official Microsoft documentation](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/) for additional guidance.
@@ -174,3 +161,8 @@ Feel free to reach out or check the [official Microsoft documentation](https://d
 
 🚀 **Start Scaling with Azure VMSS Today!** 🚀 
 
+---
+
+## **Conclusion**
+
+Azure Virtual Machine Scale Sets (VMSS) empower businesses to handle fluctuating workloads while ensuring scalability, reliability, and cost-efficiency. By following this step-by-step guide, you can easily set up a VMSS in the Azure Portal to meet your application demands.
