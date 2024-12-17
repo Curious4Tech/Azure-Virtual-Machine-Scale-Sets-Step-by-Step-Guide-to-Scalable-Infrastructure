@@ -78,11 +78,12 @@ A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows
 
 ![image](https://github.com/user-attachments/assets/63843fa6-e904-4ca9-9a5d-37e381601e19)
 
-6. **`Orchestration Mode`**: Select **`Uniform`** (recommended for identical VMs) or **`Flexible`**.
-7. **`Image`**:
+5. **`Orchestration Mode`**: Select **`Uniform`** (recommended for identical VMs) or **`Flexible`**.
+6. **`Image`**:
    - Choose the OS image for the virtual machines (e.g., Ubuntu Server, Windows Server).
-8. **`Instance Size`**: Select the desired VM size (e.g., Standard_DS1_v2).
-9. **`Number of Instances`**: Set the initial number of VM instances (e.g., 2).
+7. **`Instance Size`**: Select the desired VM size (e.g., Standard_DS1_v2).
+8. **`Number of Instances`**: Set the initial number of VM instances (e.g., 2).
+9. **`Scaling mode`** : Choose between manual and autonatic 
 
 ![image](https://github.com/user-attachments/assets/5c14c0f6-c885-45d5-9beb-db991a22c805)
 
@@ -93,9 +94,11 @@ A **`Virtual Machine Scale Set (VMSS)`** is an Azure compute service that allows
 1. **Administrator Account**:
    - Choose the authentication method:
      - **Password** (provide username and password) **or**
-     - **SSH Public Key** (for Linux VMs).
+     - **SSH Public Key** (for Linux VMs only).
 2. **Username**: Enter the admin username.
-3. **Password/SSH Key**: Input the password or upload the SSH key.
+3. **Password/SSH Key**: Input the password or upload the SSH key. Then click on **`Next`** until disk tab for the sake of this demo.
+
+![image](https://github.com/user-attachments/assets/e5428f3f-a61c-445f-b386-d5067b7a3ecb)
 
 ---
 
